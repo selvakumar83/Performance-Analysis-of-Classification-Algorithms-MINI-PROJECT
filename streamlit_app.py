@@ -80,7 +80,7 @@ else:
     # -------------------------
     st.subheader("📂 Dataset Loaded Automatically")
 
-    url = "https://github.com/selvakumar83/Performance-Analysis-Streamlit/edit/main/sample_dataset.csv"
+    url = "https://raw.githubusercontent.com/selvakumar83/Performance-Analysis-Streamlit/main/sample_dataset.csv"
 
     try:
         data = pd.read_csv(url)
